@@ -6,8 +6,6 @@ profile: false
 
 ---
 
-{% comment %}
-
 ## TODO
 
 | Tables        | Assigned      | Status  |
@@ -20,8 +18,6 @@ profile: false
 | Basic Use | ? | Done |
 | Advanced Configuration | ? | Done |
 | Export and Import | ? | Done |
-
-{% endcomment %}
 
 {% include article.md %}
 
