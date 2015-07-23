@@ -14,10 +14,10 @@ profile: false
 | Instalare | Amandoi | Done |
 | Instalare Mac | Sabin | Done |
 | Instalare Ubuntu | Sabin | Done |
-| Instalare Windows | Elena | Done |
+| Instalare Windows | Elena | In progress |
 | Basic Use | ? | Done |
 | Advanced Configuration | ? | Done |
-| Export and Import | ? | Done |
+| Export and Import | Elena | In progress |
 
 {% include article.md %}
 
