@@ -2,7 +2,7 @@
 
 ### Windows
 
-Pentru a instala Virtual Box, accesați pagina [pagina de download](https://www.virtualbox.org/wiki/Downloads) și descărcați versiunea pentru Windows, _VirtualBox 5.0 for Windows hosts_. Pașii de instalare sunt descriși în imaginile ce urmează:
+Pentru a instala Virtual Box, accesați [pagina de download](https://www.virtualbox.org/wiki/Downloads) și descărcați versiunea pentru Windows, _VirtualBox 5.0 for Windows hosts_. Pașii de instalare sunt descriși în imaginile ce urmează:
 
 [![Instare virtual box pas 1](assets/images/virtualbox/windows/install-step1.png)](assets/images/virtualbox/windows/install-step1.png)
 
