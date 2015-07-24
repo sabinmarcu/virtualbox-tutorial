@@ -22,6 +22,29 @@ La următoarea fereastră, apăsați _Install_
 
 [![Instare virtual box pas 8](assets/images/virtualbox/windows/install-step8.png)](assets/images/virtualbox/windows/install-step8.png)
 
+## Configurare avansată
+
+Fiecare mașină virtuală creată în VirtualBox are o configurare proprie, pe care o putem accesa oricând dorim. În această secțiune vom parcurge fiecare tab din _Settings_ (se găsește imediat deasupra) și vom vedea la ce ajută fiecare setare. În primă fază, atunci când deschidem fereastra, vom vedea mai multe tab-uri:
+
+[!Configurare avansată, general](assets/images/virtualbox/configurare_avansata/general.png)](assets/images/virtualbox/configurare_avansata/general.png)
+
+### General
+
+În acest tab sunt incluse configurările fundamentale. Acesta este împărțit în 3 sub-tab-uri, din care în _Basic_ putem seta numele mașinii virtuale. Sistemul de operare și versiunea acestuia, chiar dacă pot fi schimbate aparent, setările vor rămâne aceleași ca atunci când s-a cret mașina. 
+
+In tabul _Advanced_, putem adauga calea către Snapshot-ul în care este creată mașina noastră virtuală, în secțiunea _Snapshot Folder_. În _Shared Clipboard_,  putem seta modul în care putem accesa clipboad-ul atât local, cât și în mașina virtuala. Astfel, pentru _Disabled_, clipboard-ul de pe host-ul local nu va putea fi folosit, iar pentru _Bidirectional_ va putea fi folosit. Setările _Host to Guest_ și _Guest to Host_ perminte partajarea clipboard-ului doar unidirecțional. Același lucru este și pentru _Drag'n'Drop_, doar că aici se face referire la partajarea fișierelor între host-ul local și mașina virtuală. Ultimele două checkbox-uri sunt setări cu privire la modul de vizualizare al mini toolbar-ului, si dacă dorim ca fișierele media să fie salvate sau nu.
+
+În tab-ul _Description_ pot fi adăugate orice informații sau detalii legate de mașina virtuală.
+
+### System
+
+[!Configurare avansată, general](assets/images/virtualbox/configurare_avansata/system.png)](assets/images/virtualbox/configurare_avansata/system.png)
+
+În _System_, se pot adăga setări pentru pentru partea hardware a mașinii virtuale. În primul sub-tab, _Motherboard_, se poate seta RAM-ul alocat mașinii, însă trebuie să avem grijă ca pe host să avem această memorie disponibilă. De asemenea, se poate seta ordinea în care vrem să se boot-eze vașina virtuală. Aceasta va funcționa la fel ca o mașină reală.
+
+
+
+
 ## Import / Export
 
 ### Export
