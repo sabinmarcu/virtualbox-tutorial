@@ -26,7 +26,7 @@ La următoarea fereastră, apăsați _Install_
 
 Fiecare mașină virtuală creată în VirtualBox are o configurare proprie, pe care o putem accesa oricând dorim. În această secțiune vom parcurge fiecare tab din _Settings_ (se găsește imediat deasupra) și vom vedea la ce ajută fiecare setare. În primă fază, atunci când deschidem fereastra, vom vedea mai multe tab-uri:
 
-[!Configurare avansată, general](assets/images/virtualbox/configurare_avansata/general.png)](assets/images/virtualbox/configurare_avansata/general.png)
+[![Configurare avansată, general](assets/images/virtualbox/configurare_avansata/general.png)](assets/images/virtualbox/configurare_avansata/general.png)
 
 ### General
 
@@ -38,7 +38,7 @@ In tabul _Advanced_, putem adauga calea către Snapshot-ul în care este creată
 
 ### System
 
-[!Configurare avansată, general](assets/images/virtualbox/configurare_avansata/system.png)](assets/images/virtualbox/configurare_avansata/system.png)
+[![Configurare avansată, general](assets/images/virtualbox/configurare_avansata/system.png)](assets/images/virtualbox/configurare_avansata/system.png)
 
 În _System_, se pot adăga setări pentru pentru partea hardware a mașinii virtuale. În primul sub-tab, _Motherboard_, se poate seta RAM-ul alocat mașinii, însă trebuie să avem grijă ca pe host să avem această memorie disponibilă. De asemenea, se poate seta ordinea în care vrem să se boot-eze vașina virtuală. Aceasta va funcționa la fel ca o mașină reală.
 
