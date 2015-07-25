@@ -143,6 +143,11 @@ Aici se poate activa sau dezactiva controller-ul audio pentru mașina virtuală.
 
 VirtualBox permite activarea a până la 4 adaptere pentru placa de rețea, iar în tab-ul _Network_ putem seta date precum tipul, adresa MAC, reguli pentru Port Forwarding.
 
+În primă instanță, avem opțiunea de a selecta modul de _networking_. Aici putem alege între mai multe opțiuni:
+- Not attached: mașina virtuală nu va avea nicio conexiune la Internet
+- NAT (Network Address Translation): acesta este modul default setat de VirtualBox la crearea unei mașini noi și permite accesarea Internetului de către mașina virtuală
+- Bridged networking: se folosește atunci când dorim să simulăm conexiunea la o rețea sau să rulăm servere în mașina virtuală.
+
 ### Serial Ports
 
 [![Configurare avansată, serial ports]({{base_url}}assets/images/virtualbox/configurare_avansata/serial_ports.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/serial_ports.png)
@@ -150,6 +155,8 @@ VirtualBox permite activarea a până la 4 adaptere pentru placa de rețea, iar 
 ### USB
 
 [![Configurare avansată, USB]({{base_url}}assets/images/virtualbox/configurare_avansata/usb.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/usb.png)
+
+Această setare, dacă este activată, permite mașinii virtuale să acceseze conținutul device-urilor USB de pe mașina reală.
 
 ### Shared Folders
 
