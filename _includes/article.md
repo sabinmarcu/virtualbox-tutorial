@@ -1,3 +1,11 @@
+## Introducere
+
+**Ce este VirtualBox?**
+
+Virtual Box este o aplicație care își propune să vină în ajutorul nostru atunci când avem nevoie rapid și ușor de o mașină care să îndeplinească anumite specificații, atât hardware, cât și software. Astfel, urmând câțiva pași simpli, putem crea mașini virtule cu orice sistem de operare, diferit de cel pe care-l avem pe mașina locală. În plus, după ce am creat mașini virtuale proprii, cu specificațiile dorite, putem să le facem copii, sau să le clonăm și folosi pe orice alt host.
+
+De asemenea, Virtual Box nu este dependent de sistemul de operare, astfel că poate fi instalat și folosit pe orice platformă. 
+
 ## Instalare
 
 ### Mac OS X
