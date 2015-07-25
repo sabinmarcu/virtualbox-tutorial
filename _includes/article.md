@@ -129,17 +129,19 @@ In tabul _Advanced_, putem adauga calea către Snapshot-ul în care este creată
 
  VirtualBox ne permite în _Storage_ să setăm _virtual storage controllers_ pentru mașina virtuală, dându-ne astfel libertatea de a obține o mașină după placul nostru. Pentru început, în aceast tab se poate găsi un controller SATA (adică mașina are un hard disk virtual atașat), iar dacă mașina a fost creată folosind un ISO, atunci aici se va găsi încă un controller IDE (adică mașina are atașat un CD/DVD virtual). 
 
-Jos se pot vedea iconițe care permit adăugarea mai multor controllere, sau hard disk-uri virtuale.
+Jos se pot vedea iconițe care permit adăugarea mai multor controllere. Astfel, cu ajutorul primului buton putem adăuga un CD/DVD sau un hard disk nou pentru controller-ul selectat, iar al treilea buton permite adăugarea unui nou tip de controller. Al doilea și al patrulea sunt pentru ștergere.
 
 ### Audio
 
 [![Configurare avansată, audio]({{base_url}}assets/images/virtualbox/configurare_avansata/audio.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/audio.png)
 
-
+Aici se poate activa sau dezactiva controller-ul audio pentru mașina virtuală.
 
 ### Network
 
 [![Configurare avansată, ntework]({{base_url}}assets/images/virtualbox/configurare_avansata/network.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/network.png)
+
+VirtualBox permite activarea a până la 4 adaptere pentru placa de rețea, iar în tab-ul _Network_ putem seta date precum tipul, adresa MAC, reguli pentru Port Forwarding.
 
 ### Serial Ports
 
