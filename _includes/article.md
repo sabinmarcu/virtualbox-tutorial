@@ -115,38 +115,45 @@ In tabul _Advanced_, putem adauga calea către Snapshot-ul în care este creată
 
 În _System_, se pot adăga setări pentru pentru partea hardware a mașinii virtuale. În primul sub-tab, _Motherboard_, se poate seta RAM-ul alocat mașinii, însă trebuie să avem grijă ca pe host să avem această memorie disponibilă. De asemenea, se poate seta ordinea în care vrem să se boot-eze vașina virtuală. Aceasta va funcționa la fel ca o mașină reală.
 
+În al doilea sub-tab, _Processor_, se poate adăuga numărul de procesoare (CPU), însă trebuie să avem grijă ca aceste procesoare să fie într-adevăr disponibile. Pentru a verifica asta, Virtual Box are o zonă marcată cu roșu, în care nu trebuie să intrăm. _CPU execution cap_ setează limita de timp pe care host-ul îl petrece pentru a emula CPU-ul virtual. O limitare mai mică 50% poate induce probleme mașinii virtuale. 
 
 ### Display
 
-[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/display.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/display.png)
+[![Configurare avansată, display]({{base_url}}assets/images/virtualbox/configurare_avansata/display.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/display.png)
+
+În _Display_ putem seta memoria video pe care vrem s-o alocăm mașinii virtuale. Ca și în cazul setărilor de sistem, aici există o limită pe care o putem seta (zona marcată cu roșu nu este ok) depinzând de configurația de care dispunem pe mașina reală. De asemenea, putem alege numărul de monitoare pe care mașina virtuală le poate accesa atunci când dispunem de mai multe monitoare.
 
 ### Storage
 
-[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/storage.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/storage.png)
+[![Configurare avansată, storage]({{base_url}}assets/images/virtualbox/configurare_avansata/storage.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/storage.png)
+
+ VirtualBox ne permite în _Storage_ să setăm _virtual storage controllers_ pentru mașina virtuală, dându-ne astfel libertatea de a obține o mașină după placul nostru. Pentru început, în aceast tab se poate găsi un controller SATA (adică mașina are un hard disk virtual atașat), iar dacă mașina a fost creată folosind un ISO, atunci aici se va găsi încă un controller IDE (adică mașina are atașat un CD/DVD virtual). 
+
+Jos se pot vedea iconițe care permit adăugarea mai multor controllere, sau hard disk-uri virtuale.
 
 ### Audio
 
-[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/audio.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/audio.png)
+[![Configurare avansată, audio]({{base_url}}assets/images/virtualbox/configurare_avansata/audio.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/audio.png)
+
+
 
 ### Network
 
-[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/network.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/network.png)
+[![Configurare avansată, ntework]({{base_url}}assets/images/virtualbox/configurare_avansata/network.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/network.png)
 
 ### Serial Ports
 
-[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/serial_ports.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/serial_ports.png)
-
-### Serial Ports
-
-[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/serial_ports.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/serial_ports.png)
+[![Configurare avansată, serial ports]({{base_url}}assets/images/virtualbox/configurare_avansata/serial_ports.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/serial_ports.png)
 
 ### USB
 
-[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/usb.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/usb.png)
+[![Configurare avansată, USB]({{base_url}}assets/images/virtualbox/configurare_avansata/usb.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/usb.png)
 
 ### Shared Folders
 
-[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/shared_folders.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/shared_folders.png)
+[![Configurare avansată, shared folders]({{base_url}}assets/images/virtualbox/configurare_avansata/shared_folders.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/shared_folders.png)
+
+Aici se pot vedea lista fișierelor de pe mașina reală la care mașina virtuală are acces, precum și tipul de acces (Full sau Read-Only). Tot de aici putem modifica, șterge sau adăuga alte fișiere pe care să le partajăm cu mașina virtuală, folosind butoanele din dreapta.
 
 ## Import / Export
 
