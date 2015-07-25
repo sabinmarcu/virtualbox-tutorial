@@ -10,14 +10,14 @@ profile: false
 
 | Tables        | Assigned      | Status  |
 |:------------- | -------------:| -------:|
-| Introducere | Amandoi | Not Started |
+| Introducere | Amandoi | In Progress |
 | Instalare | Amandoi | Done |
 | Instalare Mac | Sabin | Done |
-| Instalare Ubuntu | Sabin | Done |
+| Instalare Ubuntu | Sabin | In Progress (must recover linux data) |
 | Instalare Windows | Elena | In progress |
 | Basic Use | ? | Done |
-| Advanced Configuration | ? | Done |
-| Export and Import | Elena | In progress |
+| Advanced Configuration | ? | In Progress |
+| Export and Import | Elena | Done |
 
 {% include article.md %}
 
