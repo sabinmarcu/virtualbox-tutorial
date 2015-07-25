@@ -5,6 +5,7 @@
 Virtual Box este o aplicație care își propune să vină în ajutorul nostru atunci când avem nevoie rapid și ușor de o mașină care să îndeplinească anumite specificații, atât hardware, cât și software. Astfel, urmând câțiva pași simpli, putem crea mașini virtule cu orice sistem de operare, diferit de cel pe care-l avem pe mașina locală. În plus, după ce am creat mașini virtuale proprii, cu specificațiile dorite, putem să le facem copii, sau să le clonăm și folosi pe orice alt host.
 
 De asemenea, Virtual Box nu este dependent de sistemul de operare, astfel că poate fi instalat și folosit pe orice platformă. 
+
 **De ce să folosim Virtual Box?**
 
 În primul rând, cu Virtual Box putem avea mașini cu diferite configurații și sisteme de operare, ce pot fi pornite simultan. Acest lucru ne ajută foarte mult atunci când avem de testat comportamente ale aplicațiilor pe diferite platforme. Pe lângă aceasta, Virtual Box ne permite să salvăm stări ale mașinilor, ca mai apoi să revenim la ele, fără să se fi alterat dacă am făcut o modificare greșita între timp.
