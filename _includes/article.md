@@ -111,12 +111,42 @@ In tabul _Advanced_, putem adauga calea către Snapshot-ul în care este creată
 
 ### System
 
-[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/system.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/system.png)
+[![Configurare avansată, system]({{base_url}}assets/images/virtualbox/configurare_avansata/system.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/system.png)
 
 În _System_, se pot adăga setări pentru pentru partea hardware a mașinii virtuale. În primul sub-tab, _Motherboard_, se poate seta RAM-ul alocat mașinii, însă trebuie să avem grijă ca pe host să avem această memorie disponibilă. De asemenea, se poate seta ordinea în care vrem să se boot-eze vașina virtuală. Aceasta va funcționa la fel ca o mașină reală.
 
 
+### Display
 
+[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/display.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/display.png)
+
+### Storage
+
+[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/storage.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/storage.png)
+
+### Audio
+
+[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/audio.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/audio.png)
+
+### Network
+
+[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/network.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/network.png)
+
+### Serial Ports
+
+[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/serial_ports.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/serial_ports.png)
+
+### Serial Ports
+
+[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/serial_ports.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/serial_ports.png)
+
+### USB
+
+[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/usb.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/usb.png)
+
+### Shared Folders
+
+[![Configurare avansată, general]({{base_url}}assets/images/virtualbox/configurare_avansata/shared_folders.png)]({{base_url}}assets/images/virtualbox/configurare_avansata/shared_folders.png)
 
 ## Import / Export
 
